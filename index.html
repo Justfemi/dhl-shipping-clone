@@ -4,56 +4,118 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>DHL Express | Justfemi's clone</title>
 </head>
 <body>
     <header>
-        <img src="./images/dhl-logo.png" alt="DHL Logo">
+        <img src="./images/dhl-new.png" alt="DHL Logo">
         <nav>
-            <a href="#">Ship Now | Track a Package</a>
+            <a href="#">Ship Now</a> 
+            <div class="line"></div>
+            <a href="#">Track a Package</a>
         </nav>
     </header>
     <div class="section">
-        <h1>DHL EXPRESS - YOUR INTERNATIONAL SHIPPING SPECIALIST</h1>
-        <h3>Enjoy the benefits of personal & business shipping services tailored to your needs.</h3>
-        <h5>Sign up now & save when you open a business account starting at 45% OFF*</h5>
+        <h1>DHL EXPRESS - YOUR INTERNATIONAL <br> SHIPPING SPECIALIST</h1>
+        <h3>Enjoy the benefits of personal & business shipping services tailored to <br> your needs.</h3>
+        <span>Sign up now & save when you open a business account starting at 45% OFF*</span>
     </div>
     <div class="shipping">
-        <h3>Who Are You Shipping For? </h3>
-        <div class="img-container">
-            <img src="./images/image1.jpg" alt="#">
-            <img src="./images/image2.jpg" alt="#">
+        <h3>
+            <strong>Who Are You Shipping For? </strong> 
+        </h3>
+
+        <div class="card-container">
+            <div class="card">
+                <img src="./images/image1.jpg" alt="#">
+                <h2>
+                    <strong>Myself</strong>
+                </h2>
+            </div>
+            <div class="card">
+                <img src="./images/image2.jpg" alt="#">
+                <h2>
+                    <strong>My Business</strong>
+                </h2>
+            </div>
         </div>
     </div>
     <div class="expectation">
-        <h3>What You Can Expect From DHL Express:</h3>
+        <h3>
+            <strong> What You Can Expect From DHL Express:</strong>
+        </h3>
         <div class="img-container">
-            <img src="./images/dhl-speed.jpg" alt="#">
-            <img src="./images/dhl-value.jpg" alt="#">
-            <img src="./images/dhl-service.jpeg" alt="#">
+            <div class="image">
+                <img src="./images/dhl-speed.jpg" alt="#">
+                <div class="text-wrapper">
+                    <h1>
+                       <b>speed</b> 
+                    </h1>
+                </div>
+                <div class="overlay-text">
+                    <p>
+                        Whether it's our time-saving online <br> shipping application 
+                        or industry-leading <br> transit times, we keep your shipments <br>
+                        moving at full-speed.
+                    </p>
+                </div>
+            </div>
+
+            <div class="image">
+                <img src="./images/dhl-value.jpg" alt="#">
+                <div class="text-wrapper">
+                    <h1>
+                        <b>value</b> 
+                    </h1>
+                </div>
+                <div class="overlay-text">
+                    <p>
+                        With competitive upfront pricing for <br> door-to-door delivery, 
+                        we maximize <br> your budget by tailoring affordable <br> solutions that meet your needs.
+                    </p>
+                </div>
+            </div>
+
+            <div class="image">
+                <img src="./images/dhl-service.jpeg" alt="#">
+                <div class="text-wrapper">
+                    <h1>
+                        <b>service</b> 
+                    </h1>
+                </div>
+                <div class="overlay-text">
+                    <p>
+                        From waybill preparation to delivery, <br> we're focused on making every part of <br> your 
+                        shipping experience as fast, <br> efficient and simple as possible.
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
     <footer>
-        <h4>&#169; 2021 DHL Express, Inc. All rights reserved.</h4>
-        <h5>*SAVE FROM 45% OFF BUSINESS ACCOUNT</h5>
-        <p>
-            Offer valid through 11:59pm EST on 12/31/21. Discount applies when opening a business account.
-            Discount dependent on shipment volume provided. Effective date of rate discount will be provided 
-            via email confirmation by DHL Express to the email contact provided through the form submission. 
-            If shipment volume changes, DHL Express may adjust rate discount upon thirty (30) days written notice. 
-            All services may not be available in all areas. Services are subject to DHL's terms and conditions as 
-            published at <a href="https://mydhl.express.dhl/ca/en/home.html">https://mydhl.express.dhl/ca/en/home.html</a> 
-            and/or as set forth on the waybill of the country of origin. This offer is subject to change without notice.
-        </p>
-        <h5>35% OFF PERSONAL SHIPMENTS</h5>
-        <p>
-            Offer valid through 11:59pm EST on 12/31/21. Discount applies to personal shipments.
-            No account required. Use promo code DHLTODAY35. All services may not be available in all areas.
-            Services are subject to DHL's terms and conditions as published at 
-            <a href="https://mydhl.express.dhl/ca/en/home.html">https://mydhl.express.dhl/ca/en/home.html</a>
-            and/or as set forth on the waybill of the country of origin. This offer is subject to change without notice. 
-            This offer is subject to change without notice.
-        </p>
+        <div class="footer-content">
+            <span>&#169; 2021 DHL Express, Inc. All rights reserved.</span>
+            <p>*SAVE FROM 45% OFF BUSINESS ACCOUNT</p>
+            <p>
+                Offer valid through 11:59pm EST on 12/31/21. Discount applies when opening a business account.
+                Discount dependent on shipment volume provided. Effective date of rate discount will be provided 
+                via email confirmation by DHL Express to the email contact provided through the form submission. 
+                If shipment volume changes, DHL Express may adjust rate discount upon thirty (30) days written notice. 
+                All services may not be available in all areas. Services are subject to DHL's terms and conditions as 
+                published at <a href="https://mydhl.express.dhl/ca/en/home.html">https://mydhl.express.dhl/ca/en/home.html</a> 
+                and/or as set forth on the waybill of the country of origin. This offer is subject to change without notice.
+            </p>
+            <p>35% OFF PERSONAL SHIPMENTS</p>
+            <p class="end">
+                Offer valid through 11:59pm EST on 12/31/21. Discount applies to personal shipments.
+                No account required. Use promo code DHLTODAY35. All services may not be available in all areas.
+                Services are subject to DHL's terms and conditions as published at 
+                <a href="https://mydhl.express.dhl/ca/en/home.html">https://mydhl.express.dhl/ca/en/home.html</a>
+                and/or as set forth on the waybill of the country of origin. This offer is subject to change without notice. 
+                This offer is subject to change without notice.
+            </p>
+        </div>
     </footer>
 </body>
 </html>
