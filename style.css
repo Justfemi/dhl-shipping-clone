@@ -10,47 +10,56 @@ body {
 }
 
 header {
-    background-color: yellow;
+    background-color: #ffcc00;
     display: flex;
     justify-content: space-around;
+    box-shadow: 10px 10px 30px 15px #ffcc00;
 }
 
 header img {
-    background-color: yellow;
-    width: 250px;
-    height: 80px;
+    width: 150px;
+    height: 20px;
     cursor: pointer;
+    color: #D40511;
+    margin-top: 8px;
+    /* margin-left: -150px; */
 }
 
 header nav {
     display: flex;
+    margin-left: 400px;
 }
 
 nav a {
     text-decoration: none;
     color: #CC0000;
     cursor: pointer;
-    font-size: 17px;
+    font-size: 15px;
+    margin-top: 7px;
+    
 }
 
 nav a:hover {
     text-decoration: underline;
 }
 nav .line {
-    border-left: 1px solid #CC0000;
-    height: 20px;
-    margin-left: 10px;
-    padding-right: 5px;
+    border-left: 2px solid #CC0000;
+    height: 23px;
+    margin-left: 12px;
+    margin-top: 5px;
+    padding-right: 12px;
 }
 
 /* SECTION */
 .section {
     text-align: center;
+    padding-bottom: 60px;
 }
 
 .section h1 {
     color: #D40511;
     font-size: 48px;
+    padding-top: 120px;
 }
 
 .section h3 {
@@ -127,6 +136,7 @@ nav .line {
 
 .img-container {
     display: flex;
+    text-align: center;
     margin-left: 235px;
 }
 
@@ -155,7 +165,7 @@ nav .line {
 .text-wrapper h1 {
     text-align: center;
     font-size: 44px;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     color: #fff;
 }
 
@@ -195,6 +205,7 @@ footer {
 footer .footer-content {
     padding-top: 20px;
     width: 69%;
+    text-align: left;
     margin-left: 250px;
 }
 
